@@ -2,8 +2,8 @@
 pragma solidity ^0.8.0;
 
 import "./DividendDistributor.sol";
-import "./libs/IBEP20.sol";
-import "./libs/SafeMath.sol";
+import "./IBEP20.sol";
+import "./SafeMath.sol";
 
 contract DistributorFactory {
     using SafeMath for uint256;
