@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./libs/IDividendDistributor.sol";
-import "./libs/SafeMath.sol";
-import "./libs/IBEP20.sol";
-import "./libs/IDEX.sol";
+import "./IDividendDistributor.sol";
+import "./SafeMath.sol";
+import "./IBEP20.sol";
+import "./IDEX.sol";
 
 contract DividendDistributor is IDividendDistributor {
     using SafeMath for uint256;
