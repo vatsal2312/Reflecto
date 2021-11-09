@@ -1,10 +1,10 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./libs/IBEP20.sol";
-import "./libs/Auth.sol";
-import "./libs/SafeMath.sol";
-import "./libs/IDEX.sol";
+import "./IBEP20.sol";
+import "./Auth.sol";
+import "./SafeMath.sol";
+import "./IDEX.sol";
 import "./DistributorFactory.sol";
 import "./DividendDistributor.sol";
 
